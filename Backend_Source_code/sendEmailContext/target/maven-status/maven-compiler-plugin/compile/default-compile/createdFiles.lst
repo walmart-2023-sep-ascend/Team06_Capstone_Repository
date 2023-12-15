@@ -1,0 +1,7 @@
+com\sendEmail\sendEmailContext\SendEmailContextApplication.class
+com\sendEmail\sendEmailContext\Service\EmailServiceImpl.class
+com\sendEmail\sendEmailContext\Entity\ProductResponse.class
+com\sendEmail\sendEmailContext\Service\EmailService.class
+com\sendEmail\sendEmailContext\Entity\EmailDetails.class
+com\sendEmail\sendEmailContext\Controller\EmailController.class
+com\sendEmail\sendEmailContext\Service\HtmlReaderService.class

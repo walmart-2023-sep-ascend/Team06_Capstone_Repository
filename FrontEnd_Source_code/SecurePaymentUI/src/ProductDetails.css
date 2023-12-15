@@ -1,0 +1,33 @@
+/* ProductDetails.css */
+.product-details-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 135px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    flex-grow: 1;
+  }
+  
+  .product-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .short-description,
+  .long-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

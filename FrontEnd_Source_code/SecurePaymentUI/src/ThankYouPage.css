@@ -1,0 +1,49 @@
+/* ThankYouPage.css */
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+}
+
+.thank-you-page {
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #1B74CE;
+}
+
+.order-details {
+  margin-top: 20px;
+}
+
+.order-details h3 {
+  color: #1B74CE;
+  margin-bottom: 10px;
+}
+
+.order-details p {
+  margin: 8px 0;
+}
+
+.success-message {
+  color: #4CAF50;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact-support {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */

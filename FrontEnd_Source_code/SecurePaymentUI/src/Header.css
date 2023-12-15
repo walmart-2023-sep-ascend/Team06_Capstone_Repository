@@ -1,0 +1,169 @@
+/* Header.css */
+
+header {
+  background-color: #1B74CE;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  
+}
+
+.title h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.user-avatar {
+  position: relative;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #1B74CE;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  width: 100%;
+  padding: 12px 16px;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: #feb919;
+}
+
+.user-avatar:hover .dropdown-content {
+  display: block;
+}
+
+/* Responsive Design */
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-menu li {
+  margin-right: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .title {
+    margin-left: 0; /* Adjust for smaller screens */
+  }
+
+  .navigation-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #1B74CE;
+    padding: 10px;
+  }
+
+  .navigation-menu.active {
+    display: flex;
+  }
+
+  .navigation-menu li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.shopping-cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon {
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+/* Additional styles for mobile view */
+@media (max-width: 480px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .navigation-menu {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+}

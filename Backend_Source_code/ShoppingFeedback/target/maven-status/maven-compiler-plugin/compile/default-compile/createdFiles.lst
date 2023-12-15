@@ -1,0 +1,7 @@
+com\capstone\ShoppingFeedback\ShoppingFeedbackApplication.class
+com\capstone\ShoppingFeedback\Service\FeedbackResponseService.class
+com\capstone\ShoppingFeedback\repository\FeedbackResponseRepo.class
+com\capstone\ShoppingFeedback\model\FeedbackResponse.class
+com\capstone\ShoppingFeedback\controller\FeedbackResponseController.class
+com\capstone\ShoppingFeedback\Service\FeedbackResponseServiceImpl.class
+com\capstone\ShoppingFeedback\model\Response.class
